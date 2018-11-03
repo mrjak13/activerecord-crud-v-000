@@ -36,7 +36,7 @@ end
 
 def can_get_the_first_item_in_the_database
   binding.pry
-  first_movie = Movie.find(id:1)
+  first_movie = Movie.find(1)
 
 end
 
