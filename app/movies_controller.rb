@@ -36,15 +36,15 @@ end
 
 def can_get_the_first_item_in_the_database
   # first_movie = Movie.find(1)
-  Movies.all.first
+  Movie.all.first
 end
 
 def can_get_the_last_item_in_the_database
-  Movies.all.last
+  Movie.all.last
 end
 
 def can_get_size_of_the_database
-  Movies.all.size
+  Movie.all.size
 end
 
 def can_find_the_first_item_from_the_database_using_id
